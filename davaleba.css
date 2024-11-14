@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    color: rgb(230, 78, 192);
+    font-size: larger;
+    font-family: initial;
+   background-image:url(..//davaleba/max.jpg);
+   margin-top: -50px;
+   
+    margin-left: 220px;
+    background-size: 100%;
+    
+    line-height: 30px;
+    
+
+}
+.submit{
+   position: absolute;
+    margin-left: 170px;
+   font-size: larger;
+   margin-top: 2px;
+ line-height:-50px;
+   
+    
+}
+
+.phone{
+    
+    margin-left: 170px;
+    font-size: larger;
+    color:rgb(213, 140, 240);
+    margin-top: 60px;
+}
+.img1{
+    margin-left: -70px;
+    margin-top: -60px;
+}
+.registration{
+    margin-left: 130px;
+    margin-top: 70px;
+    text-decoration: none;
+    list-style:disc;
+    font-weight: bold;}
+    
+ul{list-style-type: none;
+}

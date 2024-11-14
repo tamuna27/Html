@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="davaleba.css">
+    
+</head>
+<body>
+    <div class="row" id="test"></div>
+<script src="davaleba.js"></script>
+<p></p>
+<form method="get">
+    <div class="phone">
+        <label for="phone" style="font-size: 40px; ">ALL BEAUTY OFFERS: </label><br>
+        
+        <select id="phone" name="phone" style="background-color: rgb(202, 167, 234);color: rgb(117, 64, 203);height: 25px; ">
+            <option value="CANDLES"><h1>CANDLES</h1></option>
+            <option value="LIP"><h1>LIP</h1></option>
+            <option value="MIST & BODY"><h1>MIST & BODY</h1></option>
+            <option value="GIFTS"><h1>GIFTS</h1></option>
+        </select></div>
+    
+        
+    <div class="submit"><input type="submit" value="SEND" style="background-color: rgb(227, 96, 179); border-radius: 50px; width: 60px;height: 25px;border: none;color:rgb(119, 49, 156);"/></div>
+    <div class="img1"><img src="..//davaleba/buy.png" width="40px"></div>
+    <div class="registration">
+    <form name='registration' onSubmit="return formValidation();">
+       
+        <ul>
+       
+        
+        <li><label for="username">Name:</label>
+          </li>
+        <li><input type="text" name="username" size="50" /></li>
+        <li><label for="address">Address:</label></li>
+        <li><input type="text" name="address" size="50" /></li>
+        <li><label for="country">Country:</label></li>
+        <li><select name="country">
+        <option selected="" value="Default">(Please select a country)</option>
+        <option value="AF">Australia</option>
+        <option value="AL">Canada</option>
+        <option value="DZ">India</option>
+        <option value="AS">Russia</option>
+        <option value="AD">USA</option>
+        </select></li>
+        <li><label for="zip">ZIP Code:</label></li>
+        <li><input type="text" name="zip" /></li>
+        <li><label for="email">Email:</label></li>
+        <li><input type="text" name="email" size="50" /></li>
+       
+        <li><label for="desc">About:</label></li>
+        <li><textarea name="desc" id="desc"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+        </ul>
+        </form>
+    </div>
+</body>
+</html>
